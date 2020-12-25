@@ -2,7 +2,7 @@ import shutil, os
 from pathlib import Path
 
 extension = input("Please enter the file extension you would like to search for; for example, png, jpg, pdf\n")
-folder = input("Please enter the absolute path to the folder you would like to search through.")
+folder = input("Please enter the absolute path to the folder you would like to search through.\n")
 destination = input("Please enter the absolute path to the folder you would like to copy the files to. \n")
 
 for foldername, subfolders, files in os.walk(folder):
