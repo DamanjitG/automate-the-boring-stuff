@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 
 target = input("Please enter the absolute path of the folder you would like to search through.\n")
 print("The following files are larger than 100 megabytes.")
