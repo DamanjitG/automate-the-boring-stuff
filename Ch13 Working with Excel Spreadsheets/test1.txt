@@ -1,0 +1,5 @@
+This text document
+I created on my own
+To be used for the testing purposes of a python program
+which
+converts text files into spreadsheets.
