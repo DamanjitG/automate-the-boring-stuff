@@ -1,5 +1,5 @@
 # Takes in multiple text files and combines them into a spreadsheet named CombinedTextFiles.xlsx
-# The CombinedTextFiles.xlsx present in the folder is the result of running this program on test1.txt and test2.txt
+# The CombinedTextFiles.xlsx present in the folder is the result of running this program on text1.txt and text2.txt
 
 import os, openpyxl, sys
 
