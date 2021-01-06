@@ -1,7 +1,7 @@
 import os, sys, openpyxl
 
 if len(sys.argv) == 2:
-    target = sys.argv[1]
+    target = os.path.abspath(sys.argv[1])
     inputWb = openpyxl.load_workbook(target)
     inputSheet = inputWb.active
     outputWb = openpyxl.Workbook()
